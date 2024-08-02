@@ -78,3 +78,31 @@ function startingCity(city) {
 }
 
 startingCity("Honolulu");
+
+function displayForecast() {
+  let forecast = document.querySelector("#forecast");
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  let forecastHtml = "";
+
+
+  days.forEach(function (day) {
+    forecastHtml = forecastHtml + 
+      `
+      <div class="weather-forecast-day">
+        <div class="weather-forecast-date">${day}</div>
+          <div class="weather-forecast-icon">⛅</div>
+          <div class="weather-forecast-temperatures">
+            <div class="weather-forecast-temp">75°</div>
+            <div class="weather-forecast-temp">88°</div>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+
+let forecastElement = document.querySelector("#forecast");
+forecastElement.innerHTML = forecastHtml;
+}
+
+displayForecast();
