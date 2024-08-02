@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
+</head>
+<body>
+  <div class="weatherBox">
+    <header>
+      <form id="search-form">
+        <input 
+          type="search" 
+          id="search-input" 
+          placeholder="Enter a city..." 
+          required/>
+        <input 
+        type="submit" 
+        id="search-button" 
+        value="search"/>
+      </form>
+
+    </header>
+    <main>
+      <div>
+      <h1 id="cityNow">
+      Honolulu
+      </h1>
+      <p>
+        <span id="current-date">Tuesday 11:06</span>, <span id="conditionsDescription">scattered clouds</span>
+        <br />
+        Humidity: <span class="unit"><span id="humidityNow">88</span>%,</span> 
+        wind: <span class="unit"><span id="windNow">15</span> mph</span>
+        <br />
+      </p>
+      </div>
+
+      <div class="tempCurrent">
+        <span id="icon"></span>
+        <span id="tempNow" class="tempValue">12</span>
+        <span class="degreeF">°F</span>
+      </div>
+
+    </main>
+    <footer>This project was coded by 
+      <a href="https://github.com/cechinaka" target="_blank">Christie Chinaka</a>
+      and is on
+      <a href="https://github.com/cechinaka/SheCodesPlus.Weather-app" target="_blank">
+        GitHub</a> 
+        and hosted on 
+        <a href="https://sweet-stroopwafel-7cdee4.netlify.app/" target="_blank">Netlify.</a>
+      </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
