@@ -88,6 +88,32 @@ p {
   top: -35px;
 }
 
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+.weather-forecast-date {
+  text-align: center;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 35px;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color:#56c4acd8;
+  font-weight: 500;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temp {
+  padding: 0 8px;
+}
+
 footer {
   font-size: 16px;
   text-align: center;
