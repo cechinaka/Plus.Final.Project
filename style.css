@@ -91,9 +91,14 @@ p {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
 .weather-forecast-date {
   text-align: center;
+  color: #4c4e4ec9;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
 .weather-forecast-icon {
