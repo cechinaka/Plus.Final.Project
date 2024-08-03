@@ -26,7 +26,7 @@ header {
   padding: 10px;
   margin: 15px;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 15px;
   width: 65%;
 }
 
@@ -52,7 +52,7 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
   color: #4c4e4ec9;
   
@@ -71,7 +71,7 @@ p {
   text-align: right;
   position: relative;
   top: -3px;
-  font-size: 40px;
+  font-size: 35px;
   margin-right: 10px;
 }
 
@@ -103,7 +103,10 @@ p {
 
 .weather-forecast-icon {
   text-align: center;
-  font-size: 35px;
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
@@ -124,5 +127,6 @@ footer {
   text-align: center;
   color: #696f70;
   border-top: 1px solid #f9f7fe;
+  margin-top: 10px;
   padding: 20px 0 30px 0;
 }
